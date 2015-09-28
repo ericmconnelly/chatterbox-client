@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>chatterbox</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- dependencies -->
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <!-- your scripts -->
+    <script src="env/config.js"></script>
+    <script src="scripts/app.js"></script>
+
+  </head>
+  <body>
+    <div id="main">
+      <h1>chatterbox</h1>
+      <div class = "rooms"></div>
+      <form id = "send">
+            Username <div>
+           <input id = "username" class="username" type="text" placeholder="Please type in your username"> 
+           <div></div>
+           <br>Message </br>
+           <input id="message" class="text" type="text" placeholder="Please type in your message"> <br><div>
+           <br> Please select a room </br>
+           <select class="roomOption" id="roomSelect" type="text" placeholder="New Room"> </select>
+           <div></div>
+          <br> Create a Room </br>
+          <input id="room" type="text">
+           <button href="#" id="submit">Submit</button>
+      </form>
+
+      <div class="current-room"></div>
+      <div class="message">
+      <div class="friendsList"></div>
+      <div id="chats">  
+      <!-- Your HTML goes here! -->
+    </div>
+  </body>
+</html>
